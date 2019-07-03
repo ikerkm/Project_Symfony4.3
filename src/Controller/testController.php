@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class testController extends AbstractController
 {
     /**
-     * @Route("/random")
+     * @Route("/home" , name="home" )
      * 
      *      */
     public function number()
